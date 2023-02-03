@@ -20,7 +20,6 @@ import com.example.domain.Employee;
 public class AdministratorRepository {
 
 	private String adminTable = "administrators";
-	private String employeeTable = "employees";
 
 	@Autowired
 	private NamedParameterJdbcTemplate template;
@@ -69,4 +68,3 @@ public class AdministratorRepository {
 
 }
 
-//(name,image,gender,hire_date,mail_address,zip_code,address,telephone,saraly,characteristics,dependentsCount VALUES (:name,:image,:gender,:hireDate,:mail_:address,:zipCode,:address,:telephone,:saraly,:characteristics,:dependentsCount;";
