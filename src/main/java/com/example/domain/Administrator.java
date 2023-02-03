@@ -8,14 +8,14 @@ public class Administrator {
 
 	private Integer id;
 	private String name;
-	private String mailAdress;
+	private String mailAddress;
 	private String password;
 
-	public Administrator(Integer id, String name, String mailAdress, String password) {
+	public Administrator(Integer id, String name, String mailAddress, String password) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.mailAdress = mailAdress;
+		this.mailAddress = mailAddress;
 		this.password = password;
 	}
 
@@ -39,12 +39,12 @@ public class Administrator {
 		this.name = name;
 	}
 
-	public String getMailAdress() {
-		return mailAdress;
+	public String getMailAddress() {
+		return mailAddress;
 	}
 
-	public void setMailAdress(String mailAdress) {
-		this.mailAdress = mailAdress;
+	public void setMailAddress(String mailAddress) {
+		this.mailAddress = mailAddress;
 	}
 
 	public String getPassword() {
@@ -57,7 +57,7 @@ public class Administrator {
 
 	@Override
 	public String toString() {
-		return "Administrator [id=" + id + ", name=" + name + ", mailAdress=" + mailAdress + ", password=" + password
+		return "Administrator [id=" + id + ", name=" + name + ", mailAdress=" + mailAddress + ", password=" + password
 				+ "]";
 	}
 
