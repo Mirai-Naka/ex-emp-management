@@ -1,6 +1,6 @@
 package com.example.form;
 
-public class InsertAdministracorForm {
+public class InsertAdministratorForm {
 
 	private String name;
 	private String mailAddress;

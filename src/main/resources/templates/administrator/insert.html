@@ -44,8 +44,8 @@
             <form
               method="post"
               action="login.html"
-              th:action="@{/input}"
-              th:object="${insertAdministracorForm}"
+              th:action="@{/insert}"
+              th:object="${insertAdministratorForm}"
             >
               <fieldset>
                 <legend>
@@ -93,7 +93,7 @@
                 <div class="form-group">
                   <div class="row">
                     <div class="col-sm-12">
-                      <label for="passwaord"> パスワード: </label>
+                      <label for="password"> パスワード: </label>
                       <label class="error-messages">
                         パスワードを入力してください
                       </label>
@@ -103,7 +103,7 @@
                         id="password"
                         class="form-control"
                         placeholder="password"
-                        th:field="*{passwaord}"
+                        th:field="*{password}"
                       />
                     </div>
                   </div>
